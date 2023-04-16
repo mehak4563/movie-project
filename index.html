@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie App</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Movie App</h1>
+      <form>
+        <label for="genre">Genre:</label>
+        <select id="genre">
+          <option value="">All Genres</option>
+          <option value="action">Action</option>
+          <option value="comedy">Comedy</option>
+          <option value="drama">Drama</option>
+        </select>
+        <label for="year">Year:</label>
+        <select id="year">
+          <option value="">All Years</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+        </select>
+        <label for="rating">Rating:</label>
+        <select id="rating">
+          <option value="">All Ratings</option>
+          <option value="5">5 Stars</option>
+          <option value="4">4 Stars</option>
+          <option value="3">3 Stars</option>
+          <option value="2">2 Stars</option>
+          <option value="1">1 Star</option>
+        </select>
+        <label for="language">Language:</label>
+        <select id="language">
+          <option value="">All Languages</option>
+          <option value="english">English</option>
+          <option value="spanish">Spanish</option>
+          <option value="french">French</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <div id="movies">
+      
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
